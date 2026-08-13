@@ -56,7 +56,6 @@ An AI-powered full-stack web application designed to generate personalized recip
 
 ## 📁 Project Structure
 
-```text
 AI-RECIPE-GENERATOR/
 ├── backend/
 │   ├── config/          # Database configuration and schemas
