@@ -89,12 +89,13 @@ cd backend
 npm install
 
 Create a `.env` file in the `backend` folder with your environment keys:
+
 PORT=5000
 DATABASE_URL=your_postgresql_connection_string
 JWT_SECRET=your_jwt_secret
 GEMINI_API_KEY=your_google_gemini_api_key
 UNSPLASH_ACCESS_KEY=your_unsplash_api_key
-EMAIL_USER=your_email@gmail.com
+EMAIL_USER=your_email@gmail.com    
 EMAIL_PASS=your_email_app_password
 
 Run migrations and start the development server:
