@@ -56,28 +56,28 @@ An AI-powered full-stack web application designed to generate personalized recip
 
 ## 📁 Project Structure
 
-AI-RECIPE-GENERATOR/
-├── backend/
-│   ├── config/          # Database configuration and schemas
-│   ├── controllers/     # Auth, Recipe, Pantry, MealPlan & ShoppingList controllers
-│   ├── middleware/      # Authentication middleware
-│   ├── models/          # Sequelize models (User, Recipe, PantryItem, etc.)
-│   ├── routes/          # Express API route endpoints
-│   └── utils/           # Gemini AI, Unsplash, and Email utility helpers
-└── frontend/
-    ├── public/          # Static assets & favicons
-    └── src/
-        ├── components/  # Reusable UI components
-        ├── context/     # Application state management
-        ├── pages/       # Dashboard, Recipes, Pantry, Meal Planner views
-        └── services/    # API integration services
+AI-RECIPE-GENERATOR/  
+├── backend/  
+│   ├── config/          # Database configuration and schemas   
+│   ├── controllers/     # Auth, Recipe, Pantry, MealPlan & ShoppingList controllers  
+│   ├── middleware/      # Authentication middleware  
+│   ├── models/          # Sequelize models (User, Recipe, PantryItem, etc.)  
+│   ├── routes/          # Express API route endpoints   
+│   └── utils/           # Gemini AI, Unsplash, and Email utility helpers  
+└── frontend/   
+    ├── public/          # Static assets & favicons   
+    └── src/   
+        ├── components/  # Reusable UI components   
+        ├── context/     # Application state management  
+        ├── pages/       # Dashboard, Recipes, Pantry, Meal Planner views   
+        └── services/    # API integration services  
 
 ---
 
 ## ⚡ Getting Started Locally
 
 ### **Prerequisites**
-- **Node.js** (v18 or higher)
+- **Node.js** (v18 or higher) 
 - **PostgreSQL** database
 
 ### **1. Clone the repository**
@@ -85,8 +85,8 @@ git clone https://github.com/seid8974/ai-recipe-generator.git
 cd ai-recipe-generator
 
 ### **2. Setup Backend**
-cd backend
-npm install
+cd backend  
+npm install   
 
 Create a `.env` file in the `backend` folder with your environment keys:
 
@@ -98,13 +98,13 @@ UNSPLASH_ACCESS_KEY=your_unsplash_api_key
 EMAIL_USER=your_email@gmail.com      
 EMAIL_PASS=your_email_app_password
 
-Run migrations and start the development server:
-npm run dev
+Run migrations and start the development server:  
+npm run dev  
 
 ### **3. Setup Frontend**
-cd ../frontend
-npm install
-npm run dev
+cd ../frontend  
+npm install    
+npm run dev  
 
 ---
 
